@@ -31,13 +31,17 @@ const main = async () => {
       content: "This is user Post content............",
       authorId: 10,
       postCategory: {
-       create: {
-        category: {
-            connect: {
-                id: 3
-            }
+       create: [
+        {
+            categoryId: 1
+        },
+        {
+            categoryId: 2
+        },
+        {
+            categoryId: 3
         }
-       }
+       ]
       },
     },
     include: {
