@@ -10,7 +10,9 @@ const main = async () => {
   //         role: "user",
   //       }
   // })
+  
   // console.log(createUser);
+
   // const createProfile = await prisma.profile.create({
   //     data: {
   //         bio: 'This is user Bio',
@@ -23,6 +25,7 @@ const main = async () => {
   //         name: 'Programming',
   //     }
   //   })
+  
   //   console.log(createCategory)
 
   const createPost = await prisma.post.create({
