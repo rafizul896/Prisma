@@ -14,6 +14,12 @@ const relationalQueries = async () => {
     });
 
     console.log(result);
+
+    // find all posts
+    const posts = await prisma.post.findMany();
+
+    console.log(posts)
+
 };
 
 relationalQueries();
