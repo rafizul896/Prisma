@@ -3,15 +3,15 @@ import { PrismaClient } from "../generated/prisma";
 const prisma = new PrismaClient();
 
 const main = async () => {
-  // const createUser = await prisma.user.create({
-  //     data: {
-  //         userName: "user",
-  //         email: "user@gmail.com",
-  //         role: "user",
-  //       }
-  // })
+  const createUser = await prisma.user.create({
+      data: {
+          userName: "rafizul",
+          email: "rafizul@gmail.com",
+          role: "admin",
+        }
+  })
   
-  // console.log(createUser);
+  console.log(createUser);
 
   // const createProfile = await prisma.profile.create({
   //     data: {
