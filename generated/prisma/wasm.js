@@ -131,6 +131,7 @@ exports.Prisma.UserScalarFieldEnum = {
   id: 'id',
   userName: 'userName',
   email: 'email',
+  age: 'age',
   role: 'role'
 };
 
