@@ -26,8 +26,8 @@ const relationalQueries = async () => {
     include: {
       post: {
         where: {
-            published: true
-        }
+          published: true,
+        },
       },
     },
   });
